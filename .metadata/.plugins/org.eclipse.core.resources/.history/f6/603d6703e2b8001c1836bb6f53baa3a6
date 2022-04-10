@@ -1,0 +1,5 @@
+package com.simplilearn.prd.exception;
+
+public class ProductNotFound {
+
+}

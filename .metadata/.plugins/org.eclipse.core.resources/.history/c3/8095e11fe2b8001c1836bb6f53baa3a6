@@ -1,0 +1,5 @@
+package com.simplilearn.prd.controller;
+
+public class ProductController {
+
+}

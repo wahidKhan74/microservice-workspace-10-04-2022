@@ -1,0 +1,5 @@
+package com.simplilearn.prd.entity;
+
+public class Product {
+
+}

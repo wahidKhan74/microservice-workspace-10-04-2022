@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ProductNotFound.java&apos; to &apos;com.simplilearn.prd.exception.ProductNotFound.java&apos;&#x0A;- Original project: &apos;products-service&apos;&#x0A;- Destination element: &apos;com.simplilearn.prd.exception.ProductNotFound.java&apos;&#x0A;- Original element: &apos;com.simplilearn.prd.exception.ProductNotFound.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.simplilearn.prd.exception{ProductNotFound.java" element1="/src\/main\/java&lt;com.simplilearn.prd.exception{ProductNotFound.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649604197069" units="1" version="1.0"/>
+</session>

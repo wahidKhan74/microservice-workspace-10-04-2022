@@ -1,0 +1,74 @@
+package com.simplilearn.acc.entity;
+
+import java.util.Date;
+
+public class Account {
+
+	// properties
+	private int id;
+	private String username;
+	private String password;
+	private String email;
+	private boolean enabled;
+	private Date createAt;
+	
+	// get & set methods
+	
+	
+	// constructor 
+	public Account() {
+		super();
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public boolean isEnabled() {
+		return enabled;
+	}
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+	public Date getCreateAt() {
+		return createAt;
+	}
+	public void setCreateAt(Date createAt) {
+		this.createAt = createAt;
+	}
+	public Account(int id, String name, double price, String description, boolean enabled, Date createAt) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.description = description;
+		this.enabled = enabled;
+		this.createAt = createAt;
+	}
+	
+	// override tostring
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", name=" + name + ", price=" + price + ", description=" + description
+				+ ", enabled=" + enabled + ", createAt=" + createAt + "]";
+	}	
+}
